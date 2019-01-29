@@ -61,7 +61,7 @@ ROOT_URLCONF = 'learning_log.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'learning_log/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -148,6 +148,8 @@ if os.getcwd() == '/learning_log':
     # Only allow heroku to host the project.
     ALLOWED_HOSTS = ['learning-log-final.herokuapp.com']
     DEBUG = False
+
+    # ALLOWED_HOSTS = ['localhost']
 
     # Static asset configuration
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))

@@ -1,4 +1,4 @@
-#首次创建一个列表，其中包含一些要打印的设计
+# 首次创建一个列表，其中包含一些要打印的设计
 unprinted_designs = ['inphone case', 'robot pendant', 'dodecahedron']
 completed_models = []
 
@@ -7,7 +7,7 @@ completed_models = []
 while unprinted_designs:
     current_design = unprinted_designs.pop()
 
-    #模拟根据设计，制作3D打印模型的过程
+    # 模拟根据设计，制作3D打印模型的过程
     print("Printing model: " + current_design)
     completed_models.append(current_design)
 

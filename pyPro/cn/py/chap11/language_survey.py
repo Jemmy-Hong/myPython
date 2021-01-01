@@ -1,4 +1,4 @@
-from cn.py.chap11.survey import AnonymousSurvey
+from pyPro.cn.py.chap11.survey import AnonymousSurvey
 
 # 定义一个问题，并创建一个表示调查的AnonymousSurvey对象
 question = "What language did you first learn to speak?"

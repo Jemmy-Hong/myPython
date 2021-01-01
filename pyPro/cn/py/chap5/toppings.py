@@ -6,4 +6,4 @@ for requested_topping in requested_toppings:
         print("Adding " + requested_topping + ".")
     else:
         print("Sorry, we don't have " + requested_topping + ".")
-print("\n Finished making your pizzal!")
+print("\n Finished making your pizzas!")

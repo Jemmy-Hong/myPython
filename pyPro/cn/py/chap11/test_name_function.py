@@ -1,5 +1,5 @@
 import unittest
-from cn.py.chap11.name_function import get_formatted_name
+from pyPro.cn.py.chap11.name_function import get_formatted_name
 
 class NamesTestCase(unittest.TestCase):
     """测试name_function.py"""

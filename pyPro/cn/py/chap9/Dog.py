@@ -1,4 +1,4 @@
-class Dog():
+class Dog:
     """一次模拟小狗的简单尝试"""
 
     def __init__(self, name, age):
@@ -14,12 +14,13 @@ class Dog():
         """模拟小狗被命令时打滚"""
         print(self.name.title() + " rolled over!")
 
-mydog = Dog('willie', 6)
 
-print("My dog's name is " + mydog.name.title() + ".")
-print("My dog is " + str(mydog.age) + " years old.")
+myDog = Dog('willie', 6)
+
+print("My dog's name is " + myDog.name.title() + ".")
+print("My dog is " + str(myDog.age) + " years old.")
 
 print("\n")
 
-mydog.sit()
-mydog.roll_over()
+myDog.sit()
+myDog.roll_over()

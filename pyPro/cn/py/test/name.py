@@ -6,5 +6,5 @@
 # age = 23
 # print("Happy " + str(age) + "rd Birthday!")
 
-bicycles = ['trek', 'cannondale', 'redline', 'spcialized']
+bicycles = ['trek', 'cannonade', 'readline', 'specialized']
 print(bicycles)

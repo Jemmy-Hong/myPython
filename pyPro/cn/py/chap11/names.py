@@ -1,4 +1,4 @@
-from cn.py.chap11.name_function import get_formatted_name
+from pyPro.cn.py.chap11.name_function import get_formatted_name
 
 print("Enter 'q' at any time to quit.")
 while True:

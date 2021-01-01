@@ -1,8 +1,9 @@
 """电动车"""
-from cn.py.chap9.car import Car
-from cn.py.chap9.battery import Battery
+from pyPro.cn.py.chap9.car import Car
+from pyPro.cn.py.chap9.battery import Battery
 
-class ElecticCar(Car):
+
+class ElectricCar(Car):
     """电动汽车的独特之处"""
 
     def __init__(self, make, model, year):
@@ -16,7 +17,6 @@ class ElecticCar(Car):
     def describe_battery(self):
         """打印一条描述电瓶容量的消息"""
         print("This car has a " + str(self.battery_size) + "-kWh battery.")
-
 
 # my_tesla = ElecticCar('tesla', 'model s', 2016)
 # print(my_tesla.get_descriptive_name())

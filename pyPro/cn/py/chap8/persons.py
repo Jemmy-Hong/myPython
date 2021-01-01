@@ -3,10 +3,12 @@ def build_person(first_name, last_name):
     person = {"first": first_name, 'last': last_name}
     return person
 
+
 musician = build_person('jimi', 'hendrix')
 print(musician)
 
-#带默认值的(必须放在最后)
+
+# 带默认值的(必须放在最后)
 def build_person(first_name, last_name, age=''):
     """返回一个字典, 其中包含有关一个人的信息"""
     person = {'first': first_name, 'last': last_name}
@@ -14,5 +16,6 @@ def build_person(first_name, last_name, age=''):
         person['age'] = age
     return person
 
-musician = build_person('jimi', 'hendrix', age = 27)
+
+musician = build_person('jimi', 'hendrix', age=27)
 print(musician)

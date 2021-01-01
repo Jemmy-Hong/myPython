@@ -1,6 +1,6 @@
-from cn.py.chap9.electicCar import *
+from pyPro.cn.py.chap9.electricCar import *
 
-my_tesla = ElecticCar('tesla', 'model s', 2016)
+my_tesla = ElectricCar('tesla', 'model s', 2016)
 
 print(my_tesla.get_descriptive_name())
 my_tesla.battery.describe_battery()

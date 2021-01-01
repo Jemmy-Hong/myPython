@@ -1,7 +1,7 @@
 """电池"""
 
 
-class Battery():
+class Battery:
     """一次模拟电动汽车电瓶的简单尝试"""
 
     def __init__(self, battery_size=70):

@@ -12,7 +12,7 @@ class ElectricCar(Car):
         初始化父类的属性,再初始化电动汽车特有的属性
         """
         super().__init__(make, model, year)
-        self.battery = Battery();
+        self.battery = Battery()
 
     def describe_battery(self):
         """打印一条描述电瓶容量的消息"""

@@ -28,8 +28,8 @@ print(motorcycles)
 print("The last motorcycle I owned was a " + popped_motorcycle.title() + ".")
 
 # 根据值删除元素
-motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
+motorcycles = ['honda', 'yamaha', 'suzuki', 'ducat']
 print(motorcycles)
-too_expensive = 'ducati'
+too_expensive = 'ducat'
 motorcycles.remove(too_expensive)
 print('\nA ' + too_expensive + " is too expensive for me.")

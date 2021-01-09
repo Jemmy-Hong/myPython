@@ -8,7 +8,7 @@ for dimension in dimensions:
 
 # 修改元组变量(通过重新赋值的方式)
 dimensions = (200, 50)
-print("Original in demensions：")
+print("Original in dimensions：")
 for dimension in dimensions:
     print(dimension)
 

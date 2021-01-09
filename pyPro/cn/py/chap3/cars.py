@@ -7,10 +7,10 @@
 # print(cars)
 
 # sorted函数，临时排序，不改变列表元素位置，同样有reverse=True参数
-# cars = ['bmw', 'audi', 'toyota', 'subaru' ]
+# cars = ['bmw', 'audi', 'toyota', 'subaru']
 # print("Here is the original list:")
 # print(cars)
-#
+
 # print("\nHere is the sorted list:")
 # print(sorted(cars))
 #
@@ -29,8 +29,8 @@
 # print(len(cars))
 
 # 获取列表的最后一个元素
-motorcycles = ['honda', 'yamaha', 'suzuki']
-print(motorcycles[-1])
+# motorcycles = ['honda', 'yamaha', 'suzuki']
+# print(motorcycles[-1])
 
-motorcycles = []
-print(motorcycles[-1])
+# motorcycles = []
+# print(motorcycles[-1])

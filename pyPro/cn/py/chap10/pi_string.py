@@ -1,15 +1,15 @@
-# #使用读取到的文件内容
-# filename = "pi_digits.txt"
-#
-# with open(filename) as file_object:
-#     lines = file_object.readlines()
-#
-# pi_string = ''
-# for line in lines:
-#     pi_string += line.strip()
-#
-# print(pi_string)
-# print(len(pi_string))
+# 使用读取到的文件内容
+filename = "pi_digits.txt"
+
+with open(filename) as file_object:
+    lines = file_object.readlines()
+
+pi_string = ''
+for line in lines:
+    pi_string += line.strip()
+
+print(pi_string)
+print(len(pi_string))
 
 # #另一个例子
 filename = "pi_million_digits.txt"
